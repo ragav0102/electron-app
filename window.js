@@ -10,7 +10,7 @@ $(() => {
   })
 
   function alertSystems() {
-    var url = 'https://freshfields.freshpipe.co/work_orders'
+    var url = 'https://starkindustries/support/work_orders'
     var body = {
       "external_id": Math.floor(Math.random()*1000),
       "status": 1,
